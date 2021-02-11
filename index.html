@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Dj App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Redressed&display=swap" rel="stylesheet">
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"> </script>
+</head>
+    <body>
+        <center>
+            <h1 class="btn heading">Music Party
+            <br>
+            <span id="note">note: Raise your right hand up to make the song go slower and lower your hand to make it go faster, do the same for left hand to control the volume.</span>
+        </h1>
+        <div id="speed_div">
+            <img src="disk.gif" class="disk_img">
+            <br>
+            <h3 class="btn btn-danger" id="speed">Speed</h3>
+        </div>
+        <div id="volume_sound">
+            <img src="disk.gif" class="disk_img">
+            <br>
+            <h3 class="btn btn-danger" id="volume">Volume</h3>
+       
+       
+        </div>
+        <button id="playbutton" class="btn btn-success" onclick=play()>Play</button>
+        <button id="stopbutton" class="btn btn-warning" onclick=stop()>Stop</button>
+      
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>

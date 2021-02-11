@@ -1,0 +1,60 @@
+body{
+    font-family: 'Carter One', cursive;
+    font-family: 'Redressed', cursive;
+    background-image:url("background.jpg") ;
+}
+
+.heading{
+    background-image: linear-gradient(to right top, #10f45d, #58f553, #7cf54b, #97f544, #aff53f, #a8f854, #a2fa66, #9cfc76, #7bff9c, #61ffbe, #54feda, #5ffbf0);
+    width: 100%;
+    margin-top:0;
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+ 
+}
+
+#note{
+    letter-spacing: normal;
+    word-spacing: normal;
+    color:white;
+    font-size: 30px;
+}
+
+#speed_div{
+    float:left;
+}
+
+.disk_img{
+    width:200px;
+    border-radius: 50%;
+
+}
+
+
+#speed,#volume{
+    font-size:30px;
+}
+
+#volume_sound{
+    float:right;
+}
+
+#playbutton,#stopbutton{
+    font-size: 25px;
+    padding:5px;
+    margin: 10px;
+
+}
+
+canvas{
+    border:10px groove hotpink;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
